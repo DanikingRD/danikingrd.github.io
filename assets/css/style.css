@@ -86,7 +86,6 @@ p {
   line-height: 24px;
   color: #646F87;
   margin: 0px; }
-
 .bg_cover {
   background-position: center center;
   background-size: cover;
@@ -94,6 +93,13 @@ p {
   width: 100%;
   height: 100%; }
 
+  .me {
+    background-image: url('http://lorempixel.com/200/200/city/9');
+    width: 200px;
+    height: 200px;
+    /* you need to match the shadow color to your background or image border for the desired effect*/
+    box-shadow: 0 0 8px 8px white inset;
+  }
 /*===== All Button Style =====*/
 .main-btn {
   display: inline-block;
@@ -138,11 +144,22 @@ p {
     .main-btn.main-btn-2:hover {
       background-color: rgba(100, 111, 135, 0.2);
       color: #646F87; }
-
+.about_me_logo {
+  margin-top: 75px;
+  width: 400px;
+  height: 400px;
+  filter: invert(54%) sepia(92%) saturate(4264%) hue-rotate(144deg) brightness(95%) contrast(101%);
+}
+.about_me_wrapper {
+  padding-left: 40px;
+}
+div.about-me-info-wrapper {
+  margin-top: 20px;
+}
 /*===== All Section Title Style =====*/
 .section_title .sub_title {
   font-size: 26px;
-  padding-top: 20;
+  margin-top: 18px;
   font-weight: 600;
   color: #00A78E; }
   @media (max-width: 767px) {
@@ -175,9 +192,6 @@ p {
     .section_title .line li:nth-of-type(3) {
       width: 7px; }
   
-  .personal_info_item {
-
-  }
 
 /*===== All Preloader Style =====*/
 .preloader {

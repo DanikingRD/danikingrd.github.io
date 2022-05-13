@@ -28,13 +28,17 @@
     <!--====== Style CSS ======-->
     <link rel="stylesheet" href="assets/css/style.css">
 
+    <!--====== FONT AWESOME ICONS =======-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 
 <body>
     <!--[if IE]>
     <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
   <![endif]-->
-  
+
     <!--====== PRELOADER PART START ======-->
 
     <div class="preloader">
@@ -66,9 +70,11 @@
                     <div class="col-lg-12">
                         <nav class="navbar navbar-expand-lg">
                             <a class="navbar-brand" href="index.html">
-                                <h2 class="logo">  Proyecto De <span>Vida</span> </h2>
+                                <h2 class="logo"> Proyecto De <span>Vida</span> </h2>
                             </a>
-                            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                            <button class="navbar-toggler" type="button" data-toggle="collapse"
+                                data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                                aria-expanded="false" aria-label="Toggle navigation">
                                 <span class="toggler-icon"></span>
                                 <span class="toggler-icon"></span>
                                 <span class="toggler-icon"></span>
@@ -83,7 +89,7 @@
                                         <a class="page-scroll" href="#about"> Sobre mí <span></span></a>
                                     </li>
                                     <li class="nav-item">
-                                        <a class="page-scroll" href="#services">Services<span></span></a>
+                                        <a class="page-scroll" href="#services"> Habilidades <span></span></a>
                                     </li>
                                     <li class="nav-item">
                                         <a class="page-scroll" href="#project">Portfolio<span></span></a>
@@ -113,15 +119,20 @@
                 <div class="row align-items-center justify-content-center justify-content-lg-between">
                     <div class="col-lg-6">
                         <div class="header_hero_content mt-45">
-                            <h5 class="header_sub_title wow fadeInUp" data-wow-duration="1.3s" data-wow-delay="0.2s">Hola, mi nombre es </h5>
-                            <h2 class="header_title wow fadeInUp" data-wow-duration="1.3s" data-wow-delay="0.5s">Luis Daniel de la Cruz García </h2>
-                            <span class="wow fadeInUp" data-wow-duration="1.3s" data-wow-delay="0.8s"> Tengo 18 años y estudio en el Centro Educativo Nuestra Señora de la Fe </span>
-                            <a href="https://rebrand.ly/freelancer-ud" rel="nofollow" class="main-btn wow fadeInUp" data-wow-duration="1.3s" data-wow-delay="1.4s">Purchase Now</a>
+                            <h5 class="header_sub_title wow fadeInUp" data-wow-duration="1.3s" data-wow-delay="0.2s">
+                                Hola, mi nombre es </h5>
+                            <h2 class="header_title wow fadeInUp" data-wow-duration="1.3s" data-wow-delay="0.5s">Luis
+                                Daniel de la Cruz García </h2>
+                            <span class="wow fadeInUp" data-wow-duration="1.3s" data-wow-delay="0.8s"> Tengo 18 años y
+                                estudio en el Centro Educativo Nuestra Señora de la Fe </span>
+                            <a href="https://rebrand.ly/freelancer-ud" rel="nofollow" class="main-btn wow fadeInUp"
+                                data-wow-duration="1.3s" data-wow-delay="1.4s">Purchase Now</a>
                         </div> <!-- header hero content -->
                     </div>
                     <div class="col-lg-6 col-md-6 col-sm-7">
-                        <div class="header_hero_image mt-50 wow fadeInRightBig" data-wow-duration="1.3s" data-wow-delay="1.8s">
-                            <img src="assets/images/hero.png" alt="hero">
+                        <div class="header_hero_image mt-50 wow fadeInRightBig" data-wow-duration="1.3s"
+                            data-wow-delay="1.8s">
+                            <img src="assets/images/me.png">
                         </div> <!-- header hero image -->
                     </div>
                 </div> <!-- row -->
@@ -137,14 +148,10 @@
     <section id="about" class="about_area pt-70 pb-120">
         <div class="container">
             <div class="row align-items-center justify-content-center">
-                <div class="col-lg-6 col-md-9">
-                    <div class="about_image mt-50 wow fadeInRightBig" data-wow-duration="1.3s" data-wow-delay="0.5s">
-                        <img src="assets/images/about_hero.png" alt="Hero">
-                        <div class="about_shape"></div>
-                    </div> <!-- about image -->
-                </div>
+                <img src="assets/images/avatar.png" class="about_me_logo">
                 <div class="col-lg-6">
-                    <div class="about_content mt-45 wow fadeInLeftBig" data-wow-duration="1.3s" data-wow-delay="0.5s">
+                    <div class="about_content mt-45 wow fadeInLeftBig about_me_wrapper" data-wow-duration="1.3s"
+                        data-wow-delay="0.5s">
                         <div class="section_title">
                             <h5 class="sub_title"> Sobre mí </h5>
                             <ul class="line">
@@ -153,7 +160,9 @@
                                 <li></li>
                             </ul>
                         </div> <!-- section title -->
-                        <p> Soy un estudiante dedicado, que se encuentra en su último año, y esta buscando una oportunidad que le permita aprovechar su pasión por la informática y comenzar una carrera en Ingeniería de Software.</p>
+                        <p class="about_me_info"> Soy un estudiante dedicado, que se encuentra en su último año, y esta
+                            buscando una oportunidad que le permita aprovechar su pasión por la informática y comenzar
+                            una carrera en Ingeniería de Software.</p>
                         <div class="section_title">
                             <h5 class="sub_title"> Información personal </h5>
                             <ul class="line">
@@ -161,12 +170,23 @@
                                 <li></li>
                                 <li></li>
                             </ul>
-                            <h4 class="personal_info_item">
-                                 Nombre y Apellidos: <span> Luis Daniel de la Cruz G. </span>
-                            </h4>
-                            <h4 class="personal_info_item">
-                                Dirección: <span> Luis Daniel de la Cruz G. </span>
-                           </h4>
+                            <div class="about-me-info-wrapper">
+                                <h4>
+                                    Nombre y Apellidos: <span> Luis Daniel de la Cruz G. </span>
+                                </h4>
+                                <h4>
+                                    Dirección: <span> Los Prados calle 3 </span>
+                                </h4>
+                                <h4>
+                                    Email: <span> luisdaniel_cruz@outlook.com </span>
+                                </h4>
+                                <h4>
+                                    Teléfono: <span> 809-402-9661 </span>
+                                </h4>
+                                <h4>
+                                    Fecha de nacimiento: <span> 2 de febrero del 2004 </span>
+                                </h4>
+                            </div>
                         </div>
                     </div> <!-- about content -->
                 </div>
@@ -176,15 +196,14 @@
 
     <!--====== ABOUT PART ENDS ======-->
 
-    <!--====== SERVICES PART START ======-->
+    <!--====== SKILLS PART START ======-->
 
     <section id="services" class="services_area pt-115 pb-120">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-lg-6">
                     <div class="section_title text-center pb-30">
-                        <h5 class="sub_title">Services</h5>
-                        <h3 class="main_title">Service I Provide</h3>
+                        <h3 class="main_title"> Habilidades</h3>
                         <ul class="line">
                             <li></li>
                             <li></li>
@@ -197,11 +216,13 @@
                 <div class="col-lg-4 col-sm-6">
                     <div class="single_service mt-30 wow fadeInUpBig" data-wow-duration="1.3s" data-wow-delay="0.2s">
                         <div class="service_icon">
-                            <i class="lni lni-vector"></i>
+                            <i class="lni lni-calculator"></i>
                         </div>
                         <div class="service_content">
-                            <h4 class="service_title"><a href="#">Graphic Design</a></h4>
-                            <p>Lorem ipsum dolor sit aconsect dipisicing elit, sed do eiusmod to incididunt uabore etdolore magna aliqua.</p>
+                            <h4 class="service_title"><a href="#"> Resolución de problemas </a></h4>
+                            <p> El código a menudo se escribe para resolver un problema. Tengo la capacidad de
+                                identificar problemas y encontrar las formas más eficientes de resolverlos a través de
+                                la programación.</p>
                         </div>
                     </div> <!-- single service -->
                 </div>
@@ -211,56 +232,88 @@
                             <i class="lni lni-layout"></i>
                         </div>
                         <div class="service_content">
-                            <h4 class="service_title"><a href="#">Web Design</a></h4>
-                            <p>Lorem ipsum dolor sit aconsect dipisicing elit, sed do eiusmod to incididunt uabore etdolore magna aliqua.</p>
+                            <h4 class="service_title"><a href="#"> Diseño Web </a></h4>
+                            <p> He adquirido habilidades de diseño con CSS, las cuales me permiten tener el control a la
+                                hora de diseñar cualquier sitio web. </p>
                         </div>
                     </div> <!-- single service -->
                 </div>
                 <div class="col-lg-4 col-sm-6">
                     <div class="single_service mt-30 wow fadeInUpBig" data-wow-duration="1.3s" data-wow-delay="0.8s">
                         <div class="service_icon">
-                            <i class="lni lni-ux"></i>
+                            <i class="lni lni-users"></i>
                         </div>
                         <div class="service_content">
-                            <h4 class="service_title"><a href="#">UI/UX Design</a></h4>
-                            <p>Lorem ipsum dolor sit aconsect dipisicing elit, sed do eiusmod to incididunt uabore etdolore magna aliqua.</p>
+                            <h4 class="service_title"><a href="#"> Trabajo en equipo </a></h4>
+                            <p> Mis excelentes habilidades de comunicación me permiten trabajar de manera efectiva con
+                                otros y compartir ideas y soluciones. </p>
                         </div>
                     </div> <!-- single service -->
                 </div>
-                <div class="col-lg-4 col-sm-6">
-                    <div class="single_service mt-30 wow fadeInUpBig" data-wow-duration="1.3s" data-wow-delay="0.2s">
-                        <div class="service_icon">
-                            <i class="lni lni-code"></i>
-                        </div>
-                        <div class="service_content">
-                            <h4 class="service_title"><a href="#">Frontend Development</a></h4>
-                            <p>Lorem ipsum dolor sit aconsect dipisicing elit, sed do eiusmod to incididunt uabore etdolore magna aliqua.</p>
-                        </div>
-                    </div> <!-- single service -->
+            </div>
+        </div> <!-- row -->
+        <div class="section_title text-center pb-30">
+            <h4 class="sub_title"> Habilidades Técnicas </h4>
+            <ul class="line">
+                <li></li>
+                <li></li>
+                <li></li>
+            </ul>
+        </div> <!-- section title -->
+        <div class="about_skills pt-15">
+            <div class="skill_item mt-20">
+                <div class="skill_header">
+                    <h6 class="skill_title">UI/UX Design</h6>
+                    <div class="skill_percentage">
+                        <p><span class="counter">85</span>%</p>
+                    </div>
                 </div>
-                <div class="col-lg-4 col-sm-6">
-                    <div class="single_service mt-30 wow fadeInUpBig" data-wow-duration="1.3s" data-wow-delay="0.5s">
-                        <div class="service_icon">
-                            <i class="lni lni-briefcase"></i>
-                        </div>
-                        <div class="service_content">
-                            <h4 class="service_title"><a href="#">Business Analysis</a></h4>
-                            <p>Lorem ipsum dolor sit aconsect dipisicing elit, sed do eiusmod to incididunt uabore etdolore magna aliqua.</p>
-                        </div>
-                    </div> <!-- single service -->
+                <div class="skill_bar">
+                    <div class="bar_inner">
+                        <div class="bar progress_line" data-width="85"></div>
+                    </div>
                 </div>
-                <div class="col-lg-4 col-sm-6">
-                    <div class="single_service mt-30 wow fadeInUpBig" data-wow-duration="1.3s" data-wow-delay="0.8s">
-                        <div class="service_icon">
-                            <i class="lni lni-bullhorn"></i>
-                        </div>
-                        <div class="service_content">
-                            <h4 class="service_title"><a href="#">Digital Marketing</a></h4>
-                            <p>Lorem ipsum dolor sit aconsect dipisicing elit, sed do eiusmod to incididunt uabore etdolore magna aliqua.</p>
-                        </div>
-                    </div> <!-- single service -->
+            </div> <!-- skill item -->
+            <div class="skill_item mt-20">
+                <div class="skill_header">
+                    <h6 class="skill_title">Web Design</h6>
+                    <div class="skill_percentage">
+                        <p><span class="counter">75</span>%</p>
+                    </div>
                 </div>
-            </div> <!-- row -->
+                <div class="skill_bar">
+                    <div class="bar_inner">
+                        <div class="bar progress_line" data-width="75"></div>
+                    </div>
+                </div>
+            </div> <!-- skill item -->
+            <div class="skill_item mt-20">
+                <div class="skill_header">
+                    <h6 class="skill_title">HTML/CSS</h6>
+                    <div class="skill_percentage">
+                        <p><span class="counter">90</span>%</p>
+                    </div>
+                </div>
+                <div class="skill_bar">
+                    <div class="bar_inner">
+                        <div class="bar progress_line" data-width="90"></div>
+                    </div>
+                </div>
+            </div> <!-- skill item -->
+            <div class="skill_item mt-20">
+                <div class="skill_header">
+                    <h6 class="skill_title">Sketch</h6>
+                    <div class="skill_percentage">
+                        <p><span class="counter">65</span>%</p>
+                    </div>
+                </div>
+                <div class="skill_bar">
+                    <div class="bar_inner">
+                        <div class="bar progress_line" data-width="65"></div>
+                    </div>
+                </div>
+            </div> <!-- skill item -->
+        </div>
         </div> <!-- container -->
     </section>
 
@@ -284,7 +337,8 @@
                                     <li></li>
                                     <li></li>
                                 </ul>
-                                <p>Please, purchase full version to get all elements, features, footer credit removal permission and commercial license</p>
+                                <p>Please, purchase full version to get all elements, features, footer credit removal
+                                    permission and commercial license</p>
                             </div> <!-- call to action content -->
 
                             <div class="call_to_action_btn">
@@ -292,8 +346,8 @@
                             </div> <!-- call to action btn -->
                         </div> <!-- call to action box -->
                     </div>
-                </div>  <!-- row -->
-            </div>  <!-- call to action wrapper -->
+                </div> <!-- row -->
+            </div> <!-- call to action wrapper -->
         </div> <!-- container -->
     </section>
 
@@ -322,10 +376,11 @@
                             <li><a href="#">Pricing</a></li>
                             <li><a href="#">Contact Us</a></li>
                         </ul>
-                        <p class="credit pt-45">Template Designed and Developed by <a href="https://uideck.com/" rel="nofollow">UIdeck</a></p>
+                        <p class="credit pt-45">Template Designed and Developed by <a href="https://uideck.com/"
+                                rel="nofollow">UIdeck</a></p>
                     </div> <!-- footer content -->
                 </div>
-            </div>  <!-- row -->
+            </div> <!-- row -->
         </div> <!-- container -->
     </footer>
 
@@ -333,7 +388,7 @@
 
     <!--====== PART START ======-->
 
-<!--
+    <!--
     <section class="">
         <div class="container">
             <div class="row">

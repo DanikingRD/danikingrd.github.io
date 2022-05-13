@@ -53,4 +53,4 @@
             </div>
         </div>
     </div> <!-- skill item -->
-</div> about skill
+</div>
