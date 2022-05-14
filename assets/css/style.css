@@ -892,7 +892,13 @@ div.about-me-info-wrapper {
 
 .about_content p {
   margin-top: 10px; }
-
+.about_skills {
+  width: 600px;
+  margin: auto;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+  padding: 15px;
+  border-radius: 10px;
+}
 .skill_item .skill_header {
   position: relative; }
   .skill_item .skill_header .skill_title {
